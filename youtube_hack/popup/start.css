@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+}
+html, body {
+  	width: 160px;
+}
+.conteiner {
+	position: relative;
+	width: 80%;
+	border: 1px solid silver;
+	margin: 12px auto;
+	padding: 20px 5px;
+	text-align: center; 
+}
+img {
+  position: absolute;
+  left: 50%;
+  margin-left: -9px;
+  top: -9px;
+}
+.button {
+	 margin: 3% auto;
+	 padding: 4px 4px;
+	 text-align: center;
+	 font-size: 12px;
+	 cursor: pointer;
+}
+
+.blocker:hover {
+  	background-color: #CFF2F2;
+}
+.stop {
+	color:red;
+}
+.blocker {
+	background-color: #E5F2F2;
+}
+.exit {
+ 	background-color: #FBFBC9;
+}
+
+.exit:hover {
+	background-color: #EAEAC9;
+}
